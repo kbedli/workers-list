@@ -1,0 +1,168 @@
+body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #f9f9f9;
+  background-color: #14161f;
+}
+
+h1 {
+  color: rgb(209, 61, 182);
+  text-shadow: 1px 1px #5d00ff;
+  font-size: 38px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.addWorkerTitle,
+.searchWorkerTitle {
+  margin: 15px 0;
+}
+
+.summarySalaryTitle {
+  margin: 25px 0;
+  color: rgb(209, 61, 182);
+  text-shadow: 1px 1px #5d00ff;
+}
+
+.my-input-container {
+  display: inline-block;
+  position: relative;
+}
+
+.my-suffix {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+}
+
+.my-suffix2 {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+}
+
+input,
+button {
+  border: 1px solid #f9f9f9;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+input {
+  background-color: #14161f;
+}
+
+button {
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  background-color: rgb(209, 61, 182);
+  box-shadow: 2px 2px #5d00ff;
+}
+
+button:hover {
+  /* color: black; */
+  background-color: #5d00ff;
+}
+
+.datalistDepartment {
+  width: 400px;
+}
+
+.searchbars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbars input {
+  margin: 10px;
+}
+
+.addNewWorker input {
+  margin: 10px;
+  width: 200px;
+}
+
+.addNewWorker button {
+  margin-left: 10px;
+  padding: 5px 20px;
+}
+
+.rangeInputTitle {
+  display: flex;
+  justify-content: end;
+  margin-right: 7px;
+  margin-top: -25px;
+}
+
+.listTitle {
+  margin: 0px 0 20px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 0.5px solid rgba(247, 245, 245, 0.5);
+  padding: 20px 25px;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px 25px;
+}
+
+tr {
+  border-bottom: 0.5px solid rgba(247, 245, 245, 0.5);
+}
+
+tr:hover {
+  background-color: #282b39;
+}
+
+th {
+  background-color: #14161f;
+  color: rgb(209, 61, 182);
+  text-shadow: 1px 1px #5d00ff;
+  font-size: 20px;
+}
+
+th {
+  border-right: 0.5px solid rgba(247, 245, 245, 0.5);
+}
+
+th:last-child,
+td:last-child {
+  padding-left: 25px;
+}
+
+.salarySummary {
+  display: flex;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.summaryInput {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.summaryOutcome {
+  display: flex;
+  align-items: center;
+}
+
+.btns {
+  padding: 3px 15px;
+  margin: 0 5px;
+}
