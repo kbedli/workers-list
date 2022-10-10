@@ -4,9 +4,8 @@ import data from "./data.json";
 import Table from "./components/Table";
 import AddNewWorker from "./components/AddNewWorker";
 import Searchbars from "./components/Searchbars";
-import "./App.css";
-
 import SummarySalary from "./components/SummarySalary";
+import "./App.css";
 
 function App() {
   const [workers, setWorkers] = useState(data);
