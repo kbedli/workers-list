@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/workers-list/static/css/main.8085abb1.css",
+    "main.js": "/workers-list/static/js/main.93bb96cd.js",
+    "index.html": "/workers-list/index.html",
+    "main.8085abb1.css.map": "/workers-list/static/css/main.8085abb1.css.map",
+    "main.93bb96cd.js.map": "/workers-list/static/js/main.93bb96cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8085abb1.css",
+    "static/js/main.93bb96cd.js"
+  ]
+}
